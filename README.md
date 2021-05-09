@@ -1,5 +1,5 @@
 # anadir-inicio-diferido-electrodomestico
-Sirve para añadir inicio diferido a un electrodomestico (lavadora, lavavajillas...) que no lo tiene. Usa una interfaz muy simple basada en un solo boton con LED RGB. Es necesario que el electrodoméstico disponga de un boton de inicio y pueda permanecer de forma indefinida a la espera de que se pulse dicho botón para iniciar la marcha. Si ello no se cumple, puede usar mi otro programa https://github.com/isomaxx03/anadir-inicio-diferido-electrodomestico-mediante-apagado/edit/main/README.md
+Sirve para añadir inicio diferido a un electrodomestico (lavadora, lavavajillas...) que no lo tiene. Usa una interfaz muy simple basada en un solo boton con LED RGB. Es necesario que el electrodoméstico disponga de un boton de inicio y pueda permanecer de forma indefinida a la espera de que se pulse dicho botón para iniciar la marcha. Si ello no se cumple, puede usar mi otro programa https://github.com/isomaxx03/anadir-inicio-diferido-electrodomestico-mediante-apagado
 
 Simplemente se inicia con el boton apagado. Al pulsar una vez se ilumina en rojo (2 horas de retraso), si se pulsa otra vez, azul (4 horas), si se pulsa otra, verde (6 horas), repitiendo el ciclo en el rojo.
 
