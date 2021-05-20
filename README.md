@@ -9,4 +9,4 @@ En cualquier momento se puede hacer doble click y el dispositivo queda en el est
 
 Hardware:
 El boton es un pulsador simple. Se pueden usar tres led rojo, verde y azul o un led RGB de catodo común. Idealmente, para facilitar construcción y mejor resultado estético, se usa un pulsador con LED RGB integrado, de catodo común. Si se compra el botón para 5V de tensión de los LED, no hará falta añadir ninguna resistencia, de lo contrario, añadir las resistencias adecuadas.
-El pin 6 del arduino controla un relé, cuyos contactos NO (normally open, normalmente abierto) cerrarán el circuito del boton de inicio del electrodoméstico en cuestión. Es necesario haber puenteado dicho boton, en paralelo con los contactos NO del relé.
+El pin 6 del arduino controla un relé, cuyos contactos NO (normally open, normalmente abierto) cerrarán durante un instante el circuito del boton de inicio del electrodoméstico en cuestión, simulando una pulsación del botón del electrodoméstico. Es necesario haber puenteado dicho boton del electrodoméstico, en paralelo con los contactos NO del relé.
